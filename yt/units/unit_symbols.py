@@ -101,12 +101,13 @@ erg = ergs = quan(1.0, "erg")
 N  = Newton = newton = quan(1.0, "N")
 J  = Joule = joule = quan(1.0, "J")
 W  = Watt  = watt = quan(1.0, "W")
-Hz = Hertz = hertz = quan(1.0, "Hz") 
+Hz = Hertz = hertz = quan(1.0, "Hz")
 
 #
 # Imperial units
 #
 
+inch = quan(1.0, "inch")
 ft = foot = quan(1.0, "ft")
 mile = quan(1.0, "mile")
 

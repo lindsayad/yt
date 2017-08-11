@@ -60,6 +60,7 @@ default_unit_symbol_lut = {
     "ohm": (1.0e7, dimensions.resistance_mks, 0.0, r"\Omega"),
 
     # Imperial and other non-metric units
+    "inch": (2.54, dimensions.length, 0.0, r"\rm{inch}"),
     "ft": (30.48, dimensions.length, 0.0, r"\rm{ft}"),
     "mile": (160934, dimensions.length, 0.0, r"\rm{mile}"),
     "degF": (kelvin_per_rankine, dimensions.temperature, -459.67,
